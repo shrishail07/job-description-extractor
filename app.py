@@ -1,9 +1,9 @@
 import streamlit as st
 from utils import scrape_job_description, extract_text_from_file, clean_and_parse_jd
 
-st.set_page_config(page_title="Job Description Extractor", layout="wide")
+st.set_page_config(page_title="Shreeshail Job Description Extractor", layout="wide")
 
-st.title("📄 Job Description Extractor")
+st.title("📄 shreeshail Job Description Extractor")
 st.write("Paste a job description URL or upload a JD file (.pdf, .docx, .txt) to extract structured information.")
 
 url = st.text_input("Enter Job Description URL")
